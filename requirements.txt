@@ -1,0 +1,11 @@
+numpy 
+pandas
+streamlit
+sentence-transformers
+scikit-learn
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf

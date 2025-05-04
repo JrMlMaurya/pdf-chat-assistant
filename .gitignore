@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Streamlit generated folder
+.streamlit/
+
+# FAISS index (optional, if stored locally)
+*.faiss
+
+# PDF temp files
+*.pdf
