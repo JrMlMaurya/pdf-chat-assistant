@@ -18,8 +18,8 @@ This application allows you to upload a PDF document and ask questions about its
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/JrMlMaurya/pdf-chat-assistant.git
+   cd pdf-chat-assistant
    ```
 
 2. **Create and activate a virtual environment (recommended)**
@@ -38,6 +38,7 @@ This application allows you to upload a PDF document and ask questions about its
    ```
    GROQ_API_KEY=your_groq_api_key_here
    ```
+   GROQ_API_KEY - Get it from [HERE](https://groq.com/).
 
 ---
 
@@ -88,11 +89,12 @@ Your browser will open a UI where you can upload a PDF and begin querying it.
 ## 📁 File Structure
 
 ```
-├── app.py                  # Main Streamlit app
-├── document_loader.py      # Loads and embeds PDF documents
-├── qa_chain.py             # Constructs the QA chain
-├── requirements.txt        # Python dependencies
-└── .env                    # Contains the Groq API key (not included)
+├── app.py                         # Main Streamlit app
+├── langchain_backend/
+│   ├── document_loader.py         # Loads and embeds PDF documents
+│   └── qa_chain.py                # Constructs the QA chain
+├── requirements.txt               # Python dependencies
+└── .env                           # Contains the Groq API key (not included)
 ```
 
 ---
